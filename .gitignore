@@ -1,7 +1,0 @@
-# Created by .ignore support plugin (hsz.mobi)
-.gitignore
-.idea
-generatorText/text.txt
-generatorText/out.txt
-generatorText/generator_java.py
-generatorText/out_file.txt
