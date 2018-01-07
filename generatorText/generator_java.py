@@ -9,6 +9,7 @@ def read_line(path):
             yield line
             line = file.readline()[0:-2]  # 去回车 \n\r
 
+
 # 产生3-5位长的不相同的数字
 def gen_random_list(limit):
     limit = limit-1 if limit > 2 else 1
