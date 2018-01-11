@@ -28,4 +28,3 @@ with codecs.open('./out_file.txt', 'w','utf-8') as out:
         str_list = list(map(lambda x: line_list[x], gen_random_list(line_length)))
         out.writelines(','.join(str_list))
         out.writelines('\n')
-
